@@ -1,16 +1,20 @@
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.connect(("data.pr4e.org", 80))
-cmd = "GET http://data.pr4e.org/page1.htm HTTP/1.0\r\n\r\n".encode()
+mysock.connect(("127.0.0.1", 9000))
+cmd = "GET http://127.0.0.1:9000 HTTP/1.0\r\n\r\n".encode()
+#                                                  place to put header 
 mysock.send(cmd)
 
+count = 0
 while True:
+    count = count + 1
     data =mysock.recv(512)
     if len(data) < 1 :break
     print(data.decode(), end='')
 
 mysock.close()
+print("count of how many times we calls", count)
 
 
 # HTTP/1.1 200 OK

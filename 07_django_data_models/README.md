@@ -1,3 +1,5 @@
+https://docs.djangoproject.com/en/4.0/intro/tutorial02/
+
 # Object Relational Mapping ORM
 - Allow us to map tables to objects and columns
 - use those obj to srore and retrieve data from db

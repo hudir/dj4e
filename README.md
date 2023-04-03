@@ -36,3 +36,12 @@ Returns the number of words.
 ## What does the Django built-in template tag forloop.counter represent in a Django template?
 forloop.counter	The current iteration of the loop (1-indexed)
 forloop.counter0	The current iteration of the loop (0-indexed)
+
+## In Object Oriented Programming, what is another name for the attributes of an object?
+fields
+
+## Which of the following is NOT a good synonym for "class" in Python?
+direction
+
+## Which of the following is rarely used in Object Oriented Programming?
+ Destructor

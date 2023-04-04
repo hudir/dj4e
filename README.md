@@ -3,6 +3,7 @@ Learn Django -  https://www.dj4e.com/
  3-html
  4-css
 
+https://hudir.pythonanywhere.com/
 
 
  # Wrong and unknown Q&A
@@ -45,3 +46,8 @@ direction
 
 ## Which of the following is rarely used in Object Oriented Programming?
  Destructor
+
+
+## In the class django.views.generic.list.ListView, which of the following methods is called earliest in the process?
+
+ get_template_names()

@@ -50,4 +50,4 @@ direction
 
 ## In the class django.views.generic.list.ListView, which of the following methods is called earliest in the process?
 
- get_template_names()
+ get_template_names() 

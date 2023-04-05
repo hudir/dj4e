@@ -51,3 +51,13 @@ direction
 ## In the class django.views.generic.list.ListView, which of the following methods is called earliest in the process?
 
  get_template_names() 
+
+ ## What does the django.urls.reverse() function do?
+ It constructs the path to a view using the name of a path entry in urls.py
+
+
+ ## In polls/templates/polls/detail.html file in Django tutorial 4, what happens if you leave out the csrf_token line in the form?
+  The post data will be blocked by the server
+
+ ## What does the Django template filter "pluralize" do?
+ It emits an 's' if the value is > 1

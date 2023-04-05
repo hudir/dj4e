@@ -3,7 +3,12 @@ Learn Django -  https://www.dj4e.com/
  3-html
  4-css
 
-https://hudir.pythonanywhere.com/
+project: https://hudir.pythonanywhere.com/
+
+get samples code 
+```bash
+git clone git@github.com:csev/dj4e-samples.git
+```
 
 
  # Wrong and unknown Q&A

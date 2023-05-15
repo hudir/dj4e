@@ -18,3 +18,6 @@ https://docs.djangoproject.com/en/4.0/intro/tutorial02/
 - then re run the makemigration
 
 another way is delete db.sqllit3 and do migrate from scratch. but we'll lose all data
+```
+python3 manage.py makemigrations
+```

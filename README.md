@@ -66,3 +66,9 @@ direction
 
  ## What does the Django template filter "pluralize" do?
  It emits an 's' if the value is > 1
+
+ ## Which of the following is the label we give a column that the "outside world" uses to look up a particular row?
+ Logical key
+
+ ## When you add an index to a field in a database table, how are performance and storage affected?
+ Read performance is faster, insert performance is slower and extra storage is required

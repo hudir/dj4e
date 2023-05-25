@@ -72,3 +72,21 @@ direction
 
  ## When you add an index to a field in a database table, how are performance and storage affected?
  Read performance is faster, insert performance is slower and extra storage is required
+
+ ## Which best describes the Django functionality that puts up the login form?
+ Application
+
+ ## What is the default name of the emplate that Django will load when presenting the user with a login screen?
+ registration/login.html
+
+ ## Which of the following is *not* a benefit of using the Django forms capability?
+ Database portability
+
+ ## You cannot use a Django form unless it is connected to a Django Model.
+ False
+
+ ## How to you indicate that you want to display a form using the Crispy library in a template?
+ form|crispy
+
+ ## What utility method simplifies the code needed to load the old model data when processing an update request?
+  get_object_or_404()

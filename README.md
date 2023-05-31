@@ -90,3 +90,19 @@ direction
 
  ## What utility method simplifies the code needed to load the old model data when processing an update request?
   get_object_or_404()
+
+
+## Why do we insist on producing a delete confirmation screen?
+Because a GET request should never modify data
+
+## Which of the following methods is called first in the Django generic list view?
+ setup()
+
+## What is the template variable that indicates the current logged in user?
+ user
+
+##  In OwnerUpdateView, how do we make sure that the current logged in user cannot retrieve any rows that don't belong to them?
+We add a model filter
+
+## When a generic edit view is receiving POST data which of the following steps is done first?
+clean()

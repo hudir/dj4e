@@ -106,3 +106,12 @@ We add a model filter
 
 ## When a generic edit view is receiving POST data which of the following steps is done first?
 clean()
+
+## Which of the following is not a valid comment in JavaScript?
+  \#\ This is a comment
+
+## In the following code, what does the "return false" accomplish?
+```js
+<a href="js-01.htm" onclick="alert('Hi'); return false;">Click Me</a>
+```
+It keeps the browser from folowing the href attribute when "Click Me" is clicked

@@ -1,0 +1,4 @@
+- Class
+- Method or Message
+- Attribute
+- Object or Instance
